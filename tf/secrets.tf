@@ -15,13 +15,6 @@ data "vault_generic_secret" "aws_secret_key" {
   path = "my.secrets/aws_secret_key"
 }
 
-
-provider "vault" {
-  address = "http://localhost:8200"
-  
-}
-
-
 output "username" {
   value = data.vault_generic_secret.username
   sensitive = false
