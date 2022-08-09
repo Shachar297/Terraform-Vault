@@ -1,1 +1,0 @@
-export VAULT_TOKEN=vault-plaintext-root-token

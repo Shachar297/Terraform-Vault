@@ -1,3 +1,0 @@
-data "vault" "name" {
-  
-}

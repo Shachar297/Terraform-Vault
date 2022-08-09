@@ -3,3 +3,4 @@ tf/.terraform/
 tf/darwin_arm64
 .env
 tf/terraform.tfstate
+.history
